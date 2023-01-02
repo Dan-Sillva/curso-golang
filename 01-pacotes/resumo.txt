@@ -1,0 +1,15 @@
+ # Pacotes
+
+   Resumo sobre como os pacotes e modulos funcionam, exportação e escopo de funções.
+   Modulo: basicamente, o modulo vai ser seu projeto, com todas as dependências, 
+	pacotes (internos ou externos), e tudo mais. O modulo tem um arquivo go.mod,
+	que tem descrito as dependências e versão do sistema que está sendo desenvol-
+	vido naquele modulo.
+   Funcôes: as funcões tem escopo de pacote, o pacote consegue acessar a função mesmo
+	que ela não esteja exportada. A funcão com primeira letra maiuscula vai ser
+	exportada do pacote, para uso no modulo como um todo, já a minuscula conseuge
+	ser acessada no pacote mas não vai além disso.
+   Pacote: o pacote pode ser descrito como uma pasta dentro do projeto, uma forma de
+	organizar as coisas. Podemos, por exemplo, criar um pacote dentro do modulo
+	do nosso projeto para lidar apenas com meios de pagamento (no caso de um sis-
+	tema bancário).
