@@ -13,3 +13,7 @@
 	organizar as coisas. Podemos, por exemplo, criar um pacote dentro do modulo
 	do nosso projeto para lidar apenas com meios de pagamento (no caso de um sis-
 	tema bancário).
+   Pacotes Externos: você pode utilizar pacotes externos importando eles para seu
+	projeto, utilizando o comando "go get <nome-pacoe>", referenciando ele no
+	arquivo desejado e chamando suas funções. O pacote importado fica referenci-
+	ado no go.mod.
