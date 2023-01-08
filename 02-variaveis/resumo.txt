@@ -1,0 +1,5 @@
+ # Variaveis
+
+   Basicamente, alguns exemplos de criação de variáveis, com e sem atribuição
+	de valores. Além de uma forma unica e particularmente interessante de
+	inverter o valor de duas variáveis.

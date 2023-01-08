@@ -1,0 +1,14 @@
+ # tipo de dados
+
+   Os tipos de dados são....
+   int: sendo eles int8 int16 int32 int64 int, cada um com uma  quantidade de bits
+	alem do que o 'int' pega a configuracao da maquina, seja ela 32 ou 64 bits.
+   uint: int que não utiliza sinais de + ou -.
+   rune: rune é um int32 geralmente usado para representar caracteres.
+   byte: int8, que pode ser chamado de byte (8 bits = 1 byte) :).
+   float: sendo eles float32 e float64, servem para armazenar numeros quebrados,
+	como 89.90
+   string: armazena frases e textos.
+   boolean: consegue armazenar valores de verdadeiro e falso (true | false), com
+	false como valor inicial.
+   error: tipo erro para armazenar erros, criado com a biblioteca nativa errors. 
